@@ -1,0 +1,599 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    margin: 0;
+    padding: 15px;
+}
+nav ul li{
+    display: inline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+nav ul li a{
+    margin: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+    border-right: 2px;
+}
+nav ul li a:hover{
+    color: black;
+    border-radius: 2px;
+}
+.aaa{
+    margin: 0;
+    height: 20px;
+    border-right: 2px solid rgb(255, 161, 127);
+}
+
+.mayis{
+color: white;
+background-color: black;
+font-size: 30px;
+font-family: cursive;
+}
+.sag-sol{
+display: flex;
+justify-content: space-between;
+height: 80px;
+align-items: center;
+}
+.nudemy{
+font-size: 45px;
+font-weight: bold;
+margin-left: 10%;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+list-style: none;
+text-decoration: none;
+}
+h4{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+
+}
+
+.egitimler{
+width: 600px;
+height: 550px;
+padding: 40px;
+display: flex;
+justify-content: left;
+margin: 20px;
+border-radius: 5px;
+}
+.egitimler img{
+border-radius: 5px;
+padding: 10px;
+}
+.sari{
+margin-top: 25px;
+width: 100%;
+cursor: pointer;
+}
+h4{
+font-size: 40px;
+}
+
+.whatsapp{
+position: fixed;
+bottom: 15px;
+right: 15px;
+   
+}
+.whatsapp img{
+max-width: 55px;
+height: 55px;
+}
+.Devam{
+background-color: white;
+font-size: 25px;
+border: 3px solid rgb(246, 29, 9);
+border-radius: 5px;
+margin-left: 40%;
+cursor: pointer;
+padding: 25px;
+
+}
+.tex{
+width: 80%;
+height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.neden{
+margin-left: 100px;
+font-size: 35px;
+}
+.line{
+margin-left: 0;
+}
+hr{
+color: grey;
+}
+
+.projeler{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+.prf{
+font-size: 40px;
+margin-left: 80px;
+font-family: fantasy;
+display: flex;
+align-items: center;
+}
+.ulas{
+font-size: 40px;
+margin-left: 50%;
+font-style: italic;
+
+}
+.numara{
+font-size: 35px;
+display: flex;
+justify-content: center;
+margin: 180px;
+margin-top: 0;
+margin-bottom: 25px;
+}
+.yardim{
+border: 3px solid rgb(255, 161, 127);
+background-color: white;
+font-size: 25px;
+margin-left: 40%;
+border-radius: 5px;
+cursor: pointer;
+padding: 25px;
+
+}
+.genel_footer{
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ic_footer{
+    width: 50%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_left{
+    text-align: center;
+}
+.footer_left ul{
+    list-style: none;
+    display: flex;
+}
+.footer_left ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700px;
+    margin: 25px;
+}
+.footer_right{
+    border-right: 4px solid rgb(255, 161, 127);
+}
+.footer_right ul{
+    list-style-type: none;
+    display: flex;
+}
+.footer_right ul li{
+    margin: 10px;
+}
+.footer_right ul li a{
+    color: grey;
+    font-size: 25px;
+}
+.footer_right ul li a:hover{
+    color: black;
+}
+
+.nu{
+margin: 25px;
+margin-left: 5%;
+color: grey;
+}
+hr{
+width: 90%;
+color: grey;
+margin: auto;
+}
+.kurslar{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+.kurs{
+    font-size: 35px;
+    margin-left: 80px;
+}
+.magaza{
+    font-size: 30px;
+    padding: 0;
+    /* display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.gigi{
+    padding: 10px;
+    width: 400px;
+}
+.canta{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.cant{
+    width: 100%;
+    height: auto;
+}
+.pr{
+    width: 250px;
+    margin:auto;
+    color: red;
+    background-color: pink;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.kitap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 30px;
+}
+.kgy{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.satinn{
+    font-size: 17px;
+    width: 100px;
+}
+form{
+    margin-left: 50%;
+    align-items: center;
+    font-size: 20px;
+}
+.welcome{
+    margin-left: 50%;
+    font-size: 35px;
+    width: 50%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(237, 125, 125), rgb(6, 239, 204), rgb(237, 125, 125));
+    background-size: 400%;
+    position: relative;
+    animation: welcome 5s infinite;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@keyframes welcome{
+    from{
+        transform: rotate(0);
+    }
+    to{
+       transform: rotatey(180deg);
+    }
+}
+.veya{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: 200px;
+}
+.giir{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(237, 125, 125);
+    font-size: 15px;
+}
+form{
+    margin-left: 30%;
+
+}
+fieldset{
+    width: 50%;
+    border-radius: 25px;
+}
+svg{
+    color: rgb(237, 125, 125);
+}
+button{
+    cursor: pointer;
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+    
+    input[type=text]:focus {
+    width: 25%;
+    }
+    @media screen and (max-width:768px) {
+        .kapsayici{
+            height: 100%;
+            width: 30%;
+        }
+        .nudemy{
+            font-size: 20px;
+            display: block;
+        }
+        .sag-sol{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        
+        .navbar{
+            overflow: hidden;
+            background-color: rgb(255, 161, 127);
+            display: flex;
+        }
+        .navbar ul{
+            display: block;
+            width: 100%;
+        }
+        .navbar ul li{
+            width: 100%;
+            display: block;
+        }
+        .navbar ul li a{
+            width: 100%;
+            display: block;
+        }
+        h4{
+            width: 100%;
+            font-size: large;
+            color: red;
+            display: block;
+            margin-left: 120px;
+        }
+        .tik, .neden, .tex, .projeler{
+            width: 100%;
+            display: block;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        .egitimler{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            margin-left: 100px;
+            padding: 3px;
+            
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .nu{
+            width: 50%;
+            display: block;
+        }
+        .Devam, .numara, .yardim, iframe, p, .line, .mayis, .prf{
+            display: none;
+        }
+        .genel_footer{
+            width: 100%;
+            height: 100%;
+            margin-top: 650px;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ic_footer{
+            width: 50%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer_left{
+            text-align: center;
+        }
+        .footer_left ul{
+            list-style: none;
+            display: flex;
+        }
+        .footer_left ul li a{
+            text-decoration: none;
+            color: grey;
+            font-weight: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+        .footer_right{
+            display: none;
+        }
+        .footer_right ul{
+            list-style-type: none;
+            display: flex;
+        }
+        .footer_right ul li{
+            margin: 10px;
+        }
+        .footer_right ul li a{
+            color: grey;
+            font-size: 25px;
+        }
+        .footer_right ul li a:hover{
+            color: rgb(247, 8, 8);
+        }
+        footer{
+            display: block;
+            bottom: 5px;
+        }
+        .whatsapp{
+            position: fixed;
+            bottom: 15px;
+            right: 140px;
+            }
+        .kurslar, .kurs, .search-container{
+            width: 100%;
+            height: 100%;
+            
+            }
+        .veya{
+            margin-left: 35%;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .kapsayici{
+            height: 100%;
+            width: 100%;
+        }
+        .nudemy{
+            font-size: 15px;
+            margin-left: 150px;
+        }
+        .sag-sol{
+            width: 100%;
+            height: 100%;
+            display: block;
+            margin-left: 70px;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color: rgb(236, 19, 19);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar ul{
+            display: block;
+            width: 100%;
+        }
+        .navbar ul li{
+            width: 100%;
+            display: block;
+        }
+        .navbar ul li a{
+            width: 100%;
+            display: block;
+        }
+        h4{
+            width: 100%;
+            font-size: small;
+            color: rgb(94, 17, 239);
+            display: block;
+            margin-left: 100px;
+        }
+        .tik, .neden, .tex, .projeler{
+            width: 100%;
+            display: block;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        .egitimler{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        img.sari{
+            width: 450px;
+            display: block;
+            margin-left: 25px;
+        }
+        .nu{
+            width: 50%;
+            display: block;
+            margin-left: 100px;
+        }
+        .Devam, .numara, .yardim, p, .line, .mayis, .prf{
+            display: none;
+        }
+        .genel_footer{
+            width: 100%;
+            height: 95%;
+            margin-top: 150px;
+            bottom: 0;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            margin-left: 150px;
+        }
+        .ic_footer{
+            width: 50%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer_left{
+            text-align: center;
+        }
+        .footer_left ul{
+            list-style: none;
+            display: flex;
+        }
+        .footer_left ul li a{
+            text-decoration: none;
+            color: grey;
+            font-weight: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+        .footer_right{
+            display: none;
+        }
+        .footer_right ul{
+            list-style-type: none;
+            display: flex;
+        }
+        .footer_right ul li{
+            margin: 10px;
+        }
+        .footer_right ul li a{
+            color: grey;
+            font-size: 25px;
+        }
+        .footer_right ul li a:hover{
+            color: rgb(237, 125, 125);
+        }
+        footer{
+            display: block;
+            bottom: 5px;
+        }
+        .egitimler a img{
+            width: 80%;
+            height: 80%;
+            display: block;
+        }
+        .whatsapp{
+            position: fixed;
+            margin-bottom: 0;
+            margin-left: 50px;
+            }
+        }
